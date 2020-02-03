@@ -2,7 +2,23 @@ body, h1,h2,h3,h4,h5,h6 {margin:0em;font-family: "Montserrat", sans-serif}
 .container{padding:0.01em 16px}
 .make-center{width:auto;text-align:center}
 .jumbo{font-size:64px!important}
-button,button:hover{color:#000!important;background-color:#f1f1f1!important;margin:16px;padding:12px 24px!important}
+button{
+  line-height: 1.42;
+  border-width: 2px;
+  border-style: solid;
+  background: transparent;
+  border-radius: 1.46em;
+  cursor: pointer;
+  
+  position: relative;
+  width:70%;
+  border-style: solid;
+  transition: background-color 0.3s, color 0.3s;
+    margin:16px;padding:12px 24px!important}
+    button:hover{
+        opacity:0.8;
+        background-color: #52C11F;
+    }
 html,body{font-size:15px;line-height:1.5}
 h1{font-size:36px}
 img{
